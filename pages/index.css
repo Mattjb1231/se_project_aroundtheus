@@ -4,7 +4,7 @@
 .page {
     background-color: black;
     color: white;
-
+    font-family: "Inter", sans-serif;
 }
 
 .page__section {
@@ -34,6 +34,7 @@
         "title button"
         "description description";
     grid-template-columns: minmax(auto, 373px) auto;    
+    font-family: "Inter", sans-serif;
 }
 
 .profile__edit-button {
@@ -64,6 +65,7 @@
     font-weight: 500;
     grid-area: title;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 .profile__description {
@@ -73,6 +75,7 @@
     grid-area: description;
     margin: 0;
     border-radius: 10px;
+    font-family: "Inter", sans-serif;
 }
 
 .profile__image {
@@ -123,6 +126,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    font-family: "Inter", sans-serif;
 }
 
 .card__like-button {
@@ -191,4 +195,5 @@
     top: 1139px;
     color: #545454;
     grid-area: footer;
+    font-family: "Inter", sans-serif;
 }
