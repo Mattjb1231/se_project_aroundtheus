@@ -1,0 +1,10 @@
+.footer__copyright {
+    display: flex;
+    justify-content: center;
+    width: 318px;
+    height: 18px;
+    top: 1139px;
+    color: #545454;
+    grid-area: footer;
+    font-family: "Inter", sans-serif;
+}
