@@ -40,7 +40,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    font-family: "Inter", sans-serif; 
+    font-family: "Inter-Black", sans-serif; 
 }
 
 .card__like-button {
