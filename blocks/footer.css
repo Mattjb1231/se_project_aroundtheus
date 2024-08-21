@@ -1,10 +1,21 @@
 .footer__copyright {
     display: flex;
-    justify-content: center;
-    width: 318px;
-    height: 18px;
-    top: 1139px;
+    align-items: center;
+    margin: 0;
+    padding-top: 40px;
+    position: static;
     color: #545454;
-    grid-area: footer;
     font-family: "Inter", sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+@media screen and (max-width:480px)  {
+    .footer__copyright {
+        display: flex;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        line-height: .8; 
+    }
 }
