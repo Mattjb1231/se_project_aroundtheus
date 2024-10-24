@@ -23,7 +23,6 @@
     border-color: #ffff;
     height: 24px;
     width: 24px;
-    grid-area: button;
 }
 
 .profile__edit-button:hover {
@@ -103,10 +102,15 @@
         flex-direction: column;
     }
 
+    .profile__title {
+        font-size: 22px;
+    }
+
     .profile__info { 
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        padding-top: 30px;
         width: 100%;
     }
 
@@ -119,5 +123,8 @@
         margin: 0;
         width: 100%;
         max-width: 282px;
+    }
+
+    .profile__edit-button {
     }
 }
