@@ -23,6 +23,7 @@
     border-color: #ffff;
     height: 24px;
     width: 24px;
+    margin-top: 14px;
 }
 
 .profile__edit-button:hover {
@@ -53,6 +54,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+    padding-right: 10px;
 }
 
 .profile__description {
@@ -62,6 +64,7 @@
     grid-area: description;
     margin: 0;
     font-family: "Inter", sans-serif;
+    padding-bottom: 36px;
 }
 
 .profile__image {
@@ -123,6 +126,11 @@
         margin: 0;
         width: 100%;
         max-width: 282px;
+    }
+
+    .profile__edit-button {
+        height: 18px;
+        width: 18px;
     }
 
 }
