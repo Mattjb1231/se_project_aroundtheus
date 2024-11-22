@@ -1,17 +1,12 @@
 .page {
-    background-color: black;
-    color: white;
-    font-family: "Inter", sans-serif;
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
 }
 
 .page__section {
-    max-width: 880px;
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
 }
-
-.page__content {
-    align-items: center;
-}
-
