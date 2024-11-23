@@ -2,12 +2,12 @@
 
 **link to repository in github**
 
-- https://github.com/Mattjb1231/se_project_aroundtheus.git/index.html
+~ https://github.com/Mattjb1231/se_project_aroundtheus/
 
 ### Overview
 
-\*_LInk to video:
-_https://www.icloud.com/iclouddrive/0feCyiFIIF6-htVUdOmQVJUZw#aroundTheUS
+\*\_LInk to video:
+\_https://www.icloud.com/iclouddrive/0feCyiFIIF6-htVUdOmQVJUZw#aroundTheUS
 
 ### Description
 
