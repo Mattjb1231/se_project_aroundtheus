@@ -2,7 +2,7 @@
 
 **link to repository in github**
 
-~ https://github.com/Mattjb1231/se_project_aroundtheus/
+~https://mattjb1231.github.io/se_project_aroundtheus/
 
 ### Overview
 
