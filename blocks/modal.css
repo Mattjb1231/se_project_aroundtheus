@@ -5,22 +5,24 @@
   bottom: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  opacity: 0.5;
   z-index: 999;
   display: none;
   padding: 0 19px;
 }
 
-.modal__opened {
+.modal_opened {
   display: flex;
 }
 
 .modal__container {
   position: relative;
   background-color: #fff;
+  width: 430px;
+  height: 330px;
   padding: 36px;
   border-radius: 10px;
   margin: auto;
+  justify-content: center;
 }
 
 .modal__close {
@@ -32,7 +34,7 @@
   left: calc(100% + 5px);
   width: 40px;
   height: 40px;
-  background-image: url("../images/Modal\ \ Close.svg");
+  background-image: url("../images/ModalClose.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }

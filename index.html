@@ -38,7 +38,17 @@
           <button type="button" class="profile__add-button"></button>
         </section>
         <section class="cards page__section">
-          <ul class="cards__list"></ul>
+          <ul class="cards__list">
+            <template id="card-template">
+              <li class="card">
+                <img class="card__image" src="" alt="" />
+                <div class="card__description">
+                  <h2 class="card__title"></h2>
+                  <button class="card__like_button" type="button"></button>
+                </div>
+              </li>
+            </template>
+          </ul>
         </section>
       </main>
       <footer class="footer page__section">
@@ -70,16 +80,6 @@
         </form>
       </div>
     </div>
-
-    <template id="card-template">
-      <li class="card">
-        <img class="card__image" src="" alt="" />
-        <div class="card__description">
-          <h2 class="card__title"></h2>
-          <button class="card__like_button" type="button"></button>
-        </div>
-      </li>
-    </template>
 
     <script src="./scripts/index.js"></script>
   </body>
