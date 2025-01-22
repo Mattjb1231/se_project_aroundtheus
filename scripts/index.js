@@ -61,7 +61,7 @@ function handleProfileEditSubmit(e) {
   closePopup();
 }
 
-profileEditButton.addEventListener("click", () => {
+profileEditBtn.addEventListener("click", () => {
   profileTitleInput.value = profileTitleInput.textContent;
   profileDescriptionInput.value = profileDescriptionInput.textContent;
   profileEditModal.classList.add("modal_opened");
