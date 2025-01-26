@@ -45,6 +45,8 @@
   height: 27.34px;
   margin-bottom: 29.74px;
   border-color: #fff;
+  color: #000;
+  border-bottom-color: rgba(0, 0, 0, 0.2);
 }
 
 .modal__button {
