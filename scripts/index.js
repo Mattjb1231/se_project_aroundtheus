@@ -48,6 +48,8 @@ function getCardElement(cardData) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardImageEl = cardElement.querySelector(".card__image");
   const cardTitleEl = cardElement.querySelector(".card__title");
+  cardImageEl.src = data.link;
+  cardImageEl.alt = data.altText;
   cardTitleEl.textContent = cardData.name;
   return cardElement;
 }
@@ -72,5 +74,5 @@ profileEditForm.addEventListener("submit", handleProfileEditSubmit);
 initialCards.forEach((cardData) => {
   const cardElement = getCardElement(cardData);
   cardListEl.prepend(cardElement);
-  // return cardElement;
+  return cardElement;
 });
