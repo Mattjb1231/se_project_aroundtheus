@@ -40,8 +40,14 @@ const cardListEl = document.querySelector(".cards__list");
 const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
 
-function closePopup() {
-  profileEditModal.classList.remove("modal_opened");
+function openModal() {
+  console.log("Open Modal");
+  editModal.classList.add("modal_opened");
+}
+
+function closeModal() {
+  console.log("Close Modal");
+  editModal.classList.remove("modal_opened");
 }
 
 function getCardElement(cardData) {
