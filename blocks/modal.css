@@ -56,6 +56,10 @@
   background-color: #000;
 }
 
+.modal__button:hover {
+  opacity: 80%;
+}
+
 .modal__close {
   border: none;
   background-color: transparent;
@@ -68,6 +72,10 @@
   background-image: url("../images/ModalClose.svg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.modal__close:hover {
+  opacity: 50%;
 }
 
 @media screen and (min-width: 320px) and (max-width: 538px) {
