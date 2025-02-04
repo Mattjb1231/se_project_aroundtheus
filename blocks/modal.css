@@ -24,14 +24,14 @@
   background-color: #fff;
   width: 430px;
   height: unset;
-  padding: 22px;
+  padding: 36px;
   border-radius: 10px;
   margin: auto;
   justify-content: center;
 }
 
 .modal__form {
-  padding-left: 19px;
+  padding: 0px;
 }
 
 .modal__title {
@@ -51,7 +51,7 @@
   height: 27.34px;
   font-family: inter, sans-serif;
   font-size: 14px;
-  margin-bottom: 29.74px;
+  margin-bottom: 36.51px;
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -92,11 +92,11 @@
   .modal__container {
     width: 282px;
     height: 322px;
-    padding-left: 19px;
+    padding: 19px;
+    padding-bottom: 26px;
   }
 
   .modal__form {
-    padding: 0px;
   }
 
   .modal__title {
@@ -115,6 +115,7 @@
   .modal__button {
     width: 238px;
     height: 46px;
+    margin: 0px;
   }
 
   .modal__close {
